@@ -59,7 +59,57 @@ body {
 
 /* end bg colors */
 
-/* contact */
+/* header */
+
+header {
+    display: flex;
+    line-height: 3;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--green);
+    padding: 20px 20px;
+    background-color: var(--white);
+
+}
+
+header h1 {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+header nav {
+    flex: 3;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 5vw;
+    align-items: center; 
+    list-style-type: none;
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: var(--tan);
+    color: var(--green);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;;
+}
+
+header nav a:hover {
+    background-color: var(--green);
+    color: var(--tan);
+}
+
+/* end header */
+
+/* footer */
 
 .contact img {
     width: 100px;
@@ -87,4 +137,4 @@ body {
     margin-top: 10px;
 }
 
-/* end contact */
+/* end footer */
