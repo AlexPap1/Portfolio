@@ -216,7 +216,7 @@ header nav a:hover {
     background-color: var(--tan);
     color: var(--green);
     text-align: center;
-    padding: 15px;
+    padding-top: 25px;
     font-weight: bold;
 }
 
