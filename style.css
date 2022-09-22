@@ -118,6 +118,15 @@ header nav a:hover {
     padding: 20px;
 }
 
+.GhPfp {
+    position: absolute;
+    opacity: 0;
+}
+
+.GhPfp:hover{
+    opacity: 1;
+}
+
 .about {
     display: flex;
     flex-wrap: wrap;
