@@ -140,6 +140,28 @@ header nav a:hover {
 
 /* end about */
 
+/* resume */
+
+.resume {
+    background-color: var(--white);
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resume a {
+    padding: 15px;
+    text-align: center;
+    color: var(--tan);
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: var(--green);
+    text-decoration: none;
+}
+
+/* end resume */
+
 /* footer */
 
 .contact img {
