@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+:root {
+    --navy: #071E22;
+    --green: #1D7874;
+    --blue: #679289;
+    --tan: #F4C095;
+    --red: #EE2E31;
+    --white: #fff;
+    }
+
+body {
+    background-color: var(--white);
+}
+
+
+/* text and flex */
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* end text and flex */
+
+
+/*bg colors*/
+
+.bg-navy {
+    background-color: var(--navy);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-tan {
+    background-color: var(--tan);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+/* end bg colors */
+
+/* contact */
+
+.contact img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact a {
+    background-color: var(--white);
+    color: black;
+    display: inline;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.contact a:hover {
+    background-color: var(--tan);
+    color: var(--red);
+}
+
+.line {
+    display: inline;
+    margin-top: 10px;
+}
+
+/* end contact */
