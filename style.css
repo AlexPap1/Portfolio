@@ -176,6 +176,53 @@ header nav a:hover {
 
 /* end resume */
 
+/* extras */
+
+.extras {
+    background-color: var(--green);
+    color: var(--tan);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.books-title {
+    background-color: var(--tan);
+    color: var(--green);
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.books {
+    flex-wrap: wrap;
+    display: flex;
+    background-color: var(--tan);
+    justify-content: center;
+}
+
+.books img{
+    height: 250px;
+}
+
+.books h2{
+    text-align: center;
+}
+
+.books a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--navy);
+    text-align: center;
+}
+
+.books a:hover{
+    color: var(--red);
+}
+
+/* end extras */
+
 /* footer */
 
 .contact img {
@@ -199,9 +246,8 @@ header nav a:hover {
     color: var(--red);
 }
 
-.line {
-    display: inline;
-    margin-top: 10px;
+.foot {
+    padding-top: 15px;
 }
 
 /* end footer */
