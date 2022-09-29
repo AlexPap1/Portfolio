@@ -177,6 +177,39 @@ header nav a:hover {
 
 /* end resume */
 
+/*Portfolio */
+
+.portfolioTitle {
+    color: var(--tan);
+    background-color: var(--green);
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 35px 100px 35px 50px;
+    font-size: 35px;
+    float: left;
+}
+
+#portfolio {
+    background-color: var(--blue);
+    padding: 50px 50px 0px 50px;
+}
+
+.projectImg {
+    height: 55%;
+    width: 55%;
+    border-radius: 30px;
+    border: 10px solid var(--navy);
+}
+
+.projectImgSpecial {
+    height: 40%;
+    width: 40%;
+    border-radius: 30px;
+    border: 10px solid var(--navy);
+}
+
+/* end portfolio*/
+
 /* extras */
 
 .extras {
