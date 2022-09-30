@@ -233,7 +233,8 @@ header nav a:hover {
     color: var(--tan);
     padding: 15px;
     width: 700px;
-    height: min-content
+    height: min-content;
+    margin-bottom: 25px;
 }
 
 .repoDesc h2 {
